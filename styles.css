@@ -53,5 +53,14 @@ img{
 }
 
 .middle-section{
+    border: 2px solid violet;
     
+    height: calc(100vh/3);
+}
+
+.bottom-section{
+    border:2px solid yellow;
+    
+    background-color: rgb(218, 216, 216);
+    height: calc(100vh/3);
 }
