@@ -11,27 +11,47 @@ body{
     /* border: 2px solid red; */
 }
 
+/*container*/
+
 .main-container{
     display: flex;
 }
 
+/*left section*/
 img{
     width: 100%;
     height: auto;
 }
 
+
 .left-section{
     width: 70vh;
-    height: 742px;
-    
-    background-image:url('/assets/bg.jpg');
+    /* height: 742px;
+     */
+     height: 100vh;
+     background-image:url('/assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
     border: 1px solid red;
 }
 
+/*right section*/
 .right-section{
    border: 1px solid blue;
 
+   display: flex;
+   flex-direction: column;
+}
+
+.top-section{
+    border: 2px solid green;
+    
+    background-color: rgb(218, 216, 216);
+    /* width: auto; */
+    height: calc(100vh/3);
+}
+
+.middle-section{
+    
 }
