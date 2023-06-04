@@ -39,7 +39,7 @@ img{
 /*right section*/
 .right-section{
    border: 1px solid blue;
-
+   width: 150vh;
    display: flex;
    flex-direction: column;
 }
@@ -48,7 +48,6 @@ img{
     border: 2px solid green;
     
     background-color: rgb(218, 216, 216);
-    /* width: auto; */
     height: calc(100vh/3);
 }
 
@@ -63,4 +62,13 @@ img{
     
     background-color: rgb(218, 216, 216);
     height: calc(100vh/3);
+}
+
+/*RIGHT top section*/
+.top-section{
+    padding: 75px 25px 0px 35px;
+}
+
+.top-section .second-line{
+    padding: 35px 0px 0px 0px;
 }
