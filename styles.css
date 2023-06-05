@@ -43,7 +43,7 @@ img{
 }
 
 .top-section{
-    background-color: rgba(218, 216, 216,0.30);
+    background-color: rgba(218, 216, 216,0.15);
     height: calc(100vh/3);
 }
 
@@ -52,7 +52,7 @@ img{
 }
 
 .bottom-section{
-    background-color: rgba(218, 216, 216,0.30);
+    background-color: rgba(218, 216, 216,0.15);
     height: calc(100vh/3);
 }
 
