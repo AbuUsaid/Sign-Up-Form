@@ -129,9 +129,18 @@ button{
     border: 1px solid #596D48;
     border-radius: 7px;
     color: white;
+
 }
 
 a{
     text-decoration: none;
     color: #637f4a;
+}
+
+.bottom-section{
+   padding: 28px 0px 0px 36px;
+}
+
+.bottom-section p{
+    padding-top: 28px;
 }
