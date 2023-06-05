@@ -11,3 +11,16 @@
  
     
 }
+
+/*reducing font-size for middle section labels*/
+#first-name-p,
+#last-name-p,
+#email-p,
+#phone-number-p,
+#email-p,
+#confirm{
+  font-size: 0.7rem;
+}
+
+
+

@@ -79,6 +79,7 @@ img{
 .form-second-row,
 .form-third-row{
     display: flex;
+    gap: 50px;
 }
 
 #first-name-p,
@@ -88,7 +89,8 @@ img{
 
 }
 
-#email-p,#phone-number-p{
+#email-p,
+#phone-number-p{
     display: flex;
     flex-direction: column;
 
@@ -98,4 +100,22 @@ img{
 #confirm{
     display: flex;
     flex-direction: column;
+}
+
+.middle-section{
+    padding: 13px 0px 0px 36px;
+}
+
+#first-name-p,
+#last-name-p,
+#email-p,
+#phone-number-p,
+#email-p,
+#confirm{
+  padding: 20px 0px 0px 0px;
+}
+
+input{
+    width: 181px;
+    height: 24px;
 }
