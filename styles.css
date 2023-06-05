@@ -144,3 +144,26 @@ a{
 .bottom-section p{
     padding-top: 28px;
 }
+
+/*left section logo*/
+
+/* img{
+    width: 80%;
+    height: 164px;
+} */
+
+.logo-container{
+    padding: 101px 0px 0px 83px;
+    background-color: rgba(5, 3, 3, 0.30);
+
+    height: 23vh;
+    border: 3px solid rebeccapurple;
+  
+    margin-top: 11vh;
+    
+    background-image:url('/assets/greenlogo.png');
+    background-repeat: no-repeat;
+    background-size: 80% 164px;
+    background-position: 6.9vh 1vh;
+   
+}
