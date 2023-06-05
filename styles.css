@@ -72,3 +72,30 @@ img{
 .top-section .second-line{
     padding: 35px 0px 0px 0px;
 }
+
+
+/*Form labels and input fields*/
+.form-first-row,
+.form-second-row,
+.form-third-row{
+    display: flex;
+}
+
+#first-name-p,
+#last-name-p{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email-p,#phone-number-p{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email-p,
+#confirm{
+    display: flex;
+    flex-direction: column;
+}
