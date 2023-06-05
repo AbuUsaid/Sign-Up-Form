@@ -11,13 +11,13 @@ body{
 
 }
 
-/*container*/
+/****container****/
 
 .main-container{
     display: flex;
 }
 
-/*left section*/
+/****left section****/
 img{
     width: 100%;
     height: auto;
@@ -34,7 +34,7 @@ img{
     
 }
 
-/*right section*/
+/****right section****/
 .right-section{
  
    width: 150vh;
@@ -56,7 +56,7 @@ img{
     height: calc(100vh/3);
 }
 
-/*RIGHT top section*/
+/****RIGHT top section****/
 .top-section{
     padding: 75px 25px 0px 35px;
 }
@@ -66,7 +66,7 @@ img{
 }
 
 
-/*Form labels and input fields*/
+/****Form labels and input fields****/
 .form-first-row,
 .form-second-row,
 .form-third-row{
@@ -112,7 +112,7 @@ input{
     height: 24px;
 }
 
-/*bottom-section*/
+/****bottom-section****/
 button{
     width: 169px;
     height: 36px;
@@ -124,10 +124,19 @@ button{
 
 }
 
+button:hover{
+   background-color: green;    
+}
+
 a{
     text-decoration: none;
     color: #637f4a;
 }
+
+a:hover{
+    color: whitesmoke;
+}
+
 
 .bottom-section{
    padding: 28px 0px 0px 36px;
@@ -137,7 +146,7 @@ a{
     padding-top: 28px;
 }
 
-/*left section logo*/
+/****left section logo****/
 
 
 
@@ -156,3 +165,14 @@ a{
     background-position: 6.9vh 1vh;
    
 }
+
+/****form control****/
+
+input[type="text"]:valid{
+    border-color: blue;
+}
+
+/* input[type="text"]:invalid{
+    border-color:red;
+} */
+
