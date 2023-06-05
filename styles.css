@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     min-width: 100%;
-    /* border: 2px solid red; */
+
 }
 
 /*container*/
@@ -26,41 +26,33 @@ img{
 
 .left-section{
     width: 70vh;
-    /* height: 742px;
-     */
-     height: 100vh;
-     background-image:url('/assets/bg.jpg');
+    height: 100vh;
+
+    background-image:url('/assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
-    border: 1px solid red;
 }
 
 /*right section*/
 .right-section{
-   border: 1px solid blue;
+ 
    width: 150vh;
    display: flex;
    flex-direction: column;
 }
 
 .top-section{
-    border: 2px solid green;
-    
-    background-color: rgb(218, 216, 216);
+    background-color: rgba(218, 216, 216,0.30);
     height: calc(100vh/3);
 }
 
 .middle-section{
-    border: 2px solid violet;
-    
     height: calc(100vh/3);
 }
 
 .bottom-section{
-    border:2px solid yellow;
-    
-    background-color: rgb(218, 216, 216);
+    background-color: rgba(218, 216, 216,0.30);
     height: calc(100vh/3);
 }
 
@@ -147,17 +139,14 @@ a{
 
 /*left section logo*/
 
-/* img{
-    width: 80%;
-    height: 164px;
-} */
+
 
 .logo-container{
     padding: 101px 0px 0px 83px;
     background-color: rgba(5, 3, 3, 0.30);
 
     height: 23vh;
-    border: 3px solid rebeccapurple;
+    
   
     margin-top: 11vh;
     
